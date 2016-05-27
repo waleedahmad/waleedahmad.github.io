@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "homepage": "https://github.com/waleedahmad/waleedahmad.github.io",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.2.0",
+    "font-awesome": "^4.6.3"
+  }
+}

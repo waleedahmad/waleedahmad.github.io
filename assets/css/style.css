@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'HelveticaNeue-Light';
+    font-style: normal;
+    font-weight: 400;
+    src: local('HelveticaNeue'), url("../fonts/HelveticaNeue-Thin.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'HelveticaNeue-Bold';
+    src: local('HelveticaNeue'), url("../fonts/HelveticaNeue-Medium.otf") format("opentype");
+}
+
+html,body{
+    padding: 0px;
+    margin : 0px;
+}
+
+body{
+    background-color: #ffd862 !important;
+}
+
+.wrapper{
+    width : 70%;
+    height : 100%;
+    margin : 30px auto;
+}
+
+.header .title{
+    font-family: 'HelveticaNeue-Bold', sans-serif;
+    letter-spacing: 0.1em;
+    font-size: 56px;
+    text-transform: uppercase;
+    font-weight:600;
+    color:white;
+    margin: 0px;
+}
+
+.header .description{
+    font-family: 'HelveticaNeue-Light', sans-serif;
+    font-weight : 500;
+    font-size: 18px;
+    margin : 0px;
+    letter-spacing:0.1em;
+    color:grey;
+}
+
+.header .links{
+    margin-top: 15px;
+}
+
+.header .links a{
+    text-decoration: none;
+    color:white;
+    cursor :pointer;
+    font-size: 20px;
+}
+
+.header .links a:hover{
+    color:grey;
+}
+
+.header .links a:not(:first-child){
+    padding : 10px;
+}
