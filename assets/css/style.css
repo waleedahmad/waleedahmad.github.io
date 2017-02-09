@@ -37,11 +37,11 @@ body{
 
 .header .description{
     font-family: 'HelveticaNeue-Light', sans-serif;
-    font-weight : 500;
-    font-size: 18px;
+    font-weight : 400;
+    font-size: 16px;
     margin : 0px;
     letter-spacing:0.1em;
-    color:grey;
+    color:black;
 }
 
 .header .links{
@@ -61,4 +61,26 @@ body{
 
 .header .links a:not(:first-child){
     padding : 10px;
+}
+
+.header .nav{
+    margin-top:  20px;
+}
+
+
+.header .nav a{
+    font-family: 'HelveticaNeue-Light', sans-serif;
+    text-decoration : none;
+    color:black;
+    width : 50px;
+    display: inline-block;
+}
+
+.header .nav a:hover{
+    color:grey;
+    text-decoration: underline;
+}
+
+.header .nav a:not(:first-child){
+    padding-left: 10px;
 }
